@@ -17,7 +17,7 @@ export async function handler(event, context) {
                 return {
                     statusCode: 303,
                     headers: {
-                        "Location": `/success?msg=${encodeURIComponent("User has been unbanned\nPlease contact them and let them know")}`
+                        "Location": `/success?msg=${encodeURIComponent("User has been unbanned please notify them in the appeals server.")}`
                     }
                 };
             } catch (e) {
